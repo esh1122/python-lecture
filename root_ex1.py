@@ -8,5 +8,5 @@ a = int(input('2차항의 계수 : '))
 b = int(input('1차항의 계수 : '))
 c = int(input('상수항 : '))
 
-root_ex(a,b,c)
-print(f'해는 {x_1} 또는 {x_2}')
+x1, x2 = root_ex(a,b,c)
+print(f'해는 {x1} 또는 {x2}')
